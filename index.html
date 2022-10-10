@@ -17,6 +17,19 @@
         // window.location = "./error.html"
     </script>
     <![endif]-->
+    <style>
+		.listitemimage{
+		    width: 100px;
+		    /* height: 100px; */
+		    background: url("image/qrcode.jpg");
+		    transition:all 0.6s;
+		}
+		
+		.listitemimage:hover{
+		    transform: scale(20);
+			opacity: 1.0;
+		}
+	</style>
 </head>
 
 <body>
@@ -79,8 +92,9 @@
                     <p>我叫邱世乐，30岁，坐标山东，是一名Java软件工程师，N年Java EE 从业经验。
                     </p>
                     <p>学习的路还很长，志同道合的朋友可以加我，一起进步。 我的微信
-                        <a href="image/qrcode.jpg" target="_blank" id="qrcode"><img src="image/weixin.jpg"
-                                                                                        alt="13647910412"/></a>。
+                        <a href="image/qrcode.jpg" target="_blank" id="qrcode">
+							<img class="listitemimage" src="image/qrcode.jpg" alt="13647910412"/>
+						</a>。
                     </p>
                     <p>个人博客：<a href="https://qiushile.cn/" target="_blank">https://qiushile.github.io/</a></p>
                     <p>开发笔记：<a href="https://qiushile.cn/ibooks" target="_blank">https://qiushile.github.io/ibooks</a>
