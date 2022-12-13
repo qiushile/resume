@@ -558,21 +558,25 @@ div.skill p{
     left: 50%;
     margin-left: -75px;
 }
-#section6 .my-work{
+#section6 .my-work.left{
     width: 40%;
     text-align: right;
     float: left;
 }
 #section6 .my-work.right{
     width: 40%;
+    text-align: left;
     float: right;
 }
 #section6 .my-xp strong{
     color: #626e7c;
     font-size: 16px;
 }
-#section6 .my-work p{
+#section6 .my-work.left p{
     text-align: right;
+}
+#section6 .my-work.right p{
+    text-align: left;
 }
 #section6 .my-xp p.ptitle{
     margin: 0.5em 0;
