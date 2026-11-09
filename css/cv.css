@@ -134,6 +134,7 @@
 }
 #section6{
     min-height: 880px;
+    height: auto;
 }
 #section3, #section5{
     height: 70vh;
@@ -598,6 +599,8 @@ div.skill p{
     margin-top: 80px;
 }
 #section6 .my-xp li >div:last-child{
+    height: auto;
+    min-height: 150px;
     padding: 1em 0 0;
 }
 
